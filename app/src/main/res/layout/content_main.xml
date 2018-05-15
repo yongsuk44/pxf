@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ado.pxf.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imggather"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/gather1_draifing"
+                    android:layout_height="220dp" />
+
+                <ImageView
+                    android:id="@+id/imgskirt"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/skirt1_draifing"
+                    android:layout_height="220dp" />
+
+                <ImageView
+                    android:id="@+id/imgrollcoll"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:src="@drawable/rollcollarblouse1_draifting"
+                    android:elevation="1dp" />
+                <ImageView
+                    android:id="@+id/imgragla"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/raglansleevecoat1_draifting"
+                    android:layout_height="220dp" />
+
+                <ImageView
+                    android:id="@+id/imghighneck"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/highneckonepiece1_draifting"
+                    android:layout_height="220dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imghighskirt"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/highskirt1_draifting"
+                    android:layout_height="220dp" />
+                <ImageView
+                    android:id="@+id/imgpanta"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/pantalonpants1_draifting"
+                    android:layout_height="220dp" />
+                <ImageView
+                    android:id="@+id/imgvpouch"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/pouch1_acce"
+                    android:layout_height="220dp" />
+                <ImageView
+                    android:id="@+id/imgmaking"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:src="@drawable/making1_homefashion"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

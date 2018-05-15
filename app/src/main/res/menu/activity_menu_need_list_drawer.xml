@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_Need2"
+            android:icon="@drawable/needles"
+            android:title="기본준비물＆원형" />
+        <item
+            android:id="@+id/menu_Draping2"
+            android:icon="@drawable/dummy"
+            android:title="드레이핑" />
+        <item
+            android:id="@+id/menu_Drafting2"
+            android:icon="@drawable/material"
+            android:title="드레프팅" />
+        <item
+            android:id="@+id/menu_HomAcce2"
+            android:icon="@drawable/spool"
+            android:title="홈패션＆악세서리" />
+    </group>
+
+
+</menu>
